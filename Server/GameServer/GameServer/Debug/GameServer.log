@@ -1,0 +1,729 @@
+﻿Build started 22/01/2022 12:14:13 AM.
+     1>Project "E:\VanThanhMuOnline\Season6Custom\Source\Server\GameServer\GameServer\GameServer.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\GameServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\GameServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Util\CCRC32.Cpp ..\..\..\Util\Math.cpp ..\..\..\Util\pugixml\pugixml.cpp 380ItemOption.cpp 380ItemType.cpp Achievements.cpp ArcaBattle.cpp Attack.cpp BattleGround.cpp BattleSoccer.cpp BattleSoccerManager.cpp BloodCastle.cpp BonusManager.cpp BossGuild.cpp BotAlchemist.cpp BotBuffer.cpp BotOnline.cpp BotStore.cpp BProtect.cpp CannonTower.cpp CashShop.cpp CastleDeep.cpp CastleSiege.cpp CastleSiegeCrown.cpp CastleSiegeCrownSwitch.cpp CastleSiegeSync.cpp CastleSiegeWeapon.cpp ChangeClass.cpp ChaosBox.cpp ChaosCastle.cpp ChienTruongCo.cpp ChoTroi.cpp ComboSkill.cpp Command.cpp CommandManager.cpp Connection.cpp CriticalSection.cpp Crywolf.cpp CrywolfAltar.cpp CrywolfObjInfo.cpp CrywolfStateTimeInfo.cpp CrywolfStatue.cpp CrywolfSync.cpp CrywolfUtil.cpp CSProtocol.cpp CTCMini.cpp CustomArena.cpp CustomAttack.cpp CustomBuyVip.cpp CustomCombo.cpp CustomCommandDescription.cpp CustomDanhHieu.cpp CustomDeathMessage.cpp CustomEventDrop.cpp CustomEventTime.cpp CustomGHRS.cpp CustomJewel.cpp CustomKinhMach.cpp CustomLuckySpin.cpp CustomMix.cpp CustomMonster.cpp CustomMonsterSkill.cpp CustomMove.cpp CustomMoveEvent.cpp CustomNguHanh.cpp CustomNpcCollector.cpp CustomNpcCommand.cpp CustomNpcMove.cpp CustomNpcQuest.cpp CustomOfflineMode.cpp CustomOnlineLottery.cpp CustomPet.cpp CustomPick.cpp CustomPKFree.cpp CustomQuest.cpp CustomQuiz.cpp CustomRanking.cpp CustomRankUser.cpp CustomRingPedan.cpp CustomSachThuocTinh.cpp CustomStartItem.cpp CustomStartItemDame.cpp CustomStartSetItemDame.cpp CustomStore.cpp CustomThueVip.cpp CustomTinhNang.cpp CustomTop.cpp CustomTuLuyen.cpp CustomWing.cpp CustomWingMix.cpp DarkSpirit.cpp DefaultClassInfo.cpp DevilSquare.cpp DoubleGoer.cpp DropReward.cpp DSProtocol.cpp Duel.cpp Effect.cpp EffectManager.cpp ESProtocol.cpp EventHideAndSeek.cpp EventInventory.cpp EventKillAll.cpp EventPvP.cpp EventQuickly.cpp EventRunAndCatch.cpp EventRussianRoulette.cpp EventStart.cpp EventTvT.cpp ExperienceTable.cpp Survivor.cpp WindowsQuest.cpp FakeOnline.cpp Filter.cpp FilterRaname.cpp FlyingDragons.cpp Fruit.cpp GameMain.cpp GameMaster.cpp GameServer.cpp Gate.cpp GensSystem.cpp GrandResetSystem.cpp LeoThap.cpp MonsterCall.cpp NewCustomFunctions.cpp RamFix.cpp ShopSearch.cpp SwampEvent.cpp GuardianStatue.cpp Guild.cpp GuildClass.cpp GuildMatching.cpp HackCheck.cpp HackPacketCheck.cpp HackSkillCheck.cpp Helper.cpp HwidManager.cpp IllusionTemple.cpp ImperialGuardian.cpp InvasionManager.cpp InventoryEquipment.cpp IpManager.cpp Item.cpp ItemBag.cpp ItemBagEx.cpp ItemBagManager.cpp ItemDrop.cpp ItemLevel.cpp ItemManager.cpp ItemMove.cpp ItemOption.cpp ItemOptionRate.cpp ItemStack.cpp ItemValue.cpp ItemValueTrade.cpp JewelBank.cpp JewelMix.cpp JewelOfHarmonyOption.cpp JewelOfHarmonyType.cpp JSProtocol.cpp Kalima.cpp Kanturu.cpp KanturuBattleOfMaya.cpp KanturuBattleOfNightmare.cpp KanturuBattleStanby.cpp KanturuBattleUserMng.cpp KanturuEntranceNPC.cpp KanturuMaya.cpp KanturuMonsterMng.cpp KanturuObjInfo.cpp KanturuStateInfo.cpp KanturuTowerOfRefinement.cpp KanturuUtil.cpp LifeStone.cpp Log.cpp LuckyCoin.cpp LuckyItem.cpp Map.cpp MapItem.cpp MapManager.cpp MapPath.cpp MapServerManager.cpp MasterSkillTree.cpp MemoryAllocator.cpp MemoryAllocatorInfo.cpp MemScript.cpp Mercenary.cpp Message.cpp MiniDump.cpp MiniMap.cpp MiningSystem.cpp Monster.cpp MonsterAI.cpp MonsterAIAgro.cpp MonsterAIAutomata.cpp MonsterAIAutomataInfo.cpp MonsterAIElement.cpp MonsterAIElementInfo.cpp MonsterAIGroup.cpp MonsterAIGroupMember.cpp MonsterAIMovePath.cpp MonsterAIMovePathInfo.cpp MonsterAIRule.cpp MonsterAIRuleInfo.cpp MonsterAIState.cpp MonsterAIUnit.cpp MonsterAIUnitInfo.cpp MonsterAIUtil.cpp MonsterManager.cpp MonsterReward.cpp MonsterSetBase.cpp MonsterSkillElement.cpp MonsterSkillElementInfo.cpp MonsterSkillElementOption.cpp MonsterSkillInfo.cpp MonsterSkillManager.cpp MonsterSkillUnit.cpp MonsterSkillUnitInfo.cpp MossMerchant.cpp Move.cpp MoveSummon.cpp MuRummy.cpp MuunSystem.cpp Notice.cpp NpcTalk.cpp ObjectManager.cpp OfflineMode.cpp PacketManager.cpp Party.cpp PartyMatching.cpp PartySearch.cpp Path.cpp PcPoint.cpp PentagramSystem.cpp PersonalShop.cpp PKSystem.cpp PremiumDrop.cpp Protect.cpp Protocol.cpp Quest.cpp QuestObjective.cpp QuestReward.cpp QuestWorld.cpp QuestWorldObjective.cpp QuestWorldReward.cpp Queue.cpp QueueTimer.cpp Raklion.cpp RaklionBattleOfSelupan.cpp RaklionBattleUser.cpp RaklionBattleUserMng.cpp RaklionObjInfo.cpp RaklionSelupan.cpp RaklionUtil.cpp RandomManager.cpp Reconnect.cpp ReiDoMu.cpp ResetSystem.cpp ResetTable.cpp RespawnLocation.cpp RewardSystem.cpp RuudTokenSellTemplate.cpp ScheduleManager.cpp SerialCheck.cpp ServerDisplayer.cpp ServerInfo.cpp SetItemOption.cpp SetItemType.cpp Shop.cpp ShopManager.cpp ShopPointEx.cpp Skill.cpp SkillHitBox.cpp SkillManager.cpp SkyEvent.cpp SocketItemOption.cpp SocketItemType.cpp SocketManager.cpp SocketManagerUdp.cpp StatsAdvance.cpp SummonScroll.cpp TeleportMarlon.cpp ThuMuaDoExc.cpp Trade.cpp Union.cpp UnionInfo.cpp User.cpp Util.cpp Viewport.cpp Warehouse.cpp ZenDrop.cpp
+         ZenDrop.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\zendrop.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+         Warehouse.cpp
+         Viewport.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\viewport.cpp(2361): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\viewport.cpp(2367): warning C4390: ';' : empty controlled statement found; is this the intent?
+         Util.cpp
+         User.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+         UnionInfo.cpp
+         Union.cpp
+         Trade.cpp
+         ThuMuaDoExc.cpp
+         TeleportMarlon.cpp
+         SummonScroll.cpp
+         StatsAdvance.cpp
+         SocketManagerUdp.cpp
+         SocketManager.cpp
+         SocketItemType.cpp
+         SocketItemOption.cpp
+         SkyEvent.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(497): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(543): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(543): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(566): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(566): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(615): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skyevent.cpp(598): warning C4101: 'info' : unreferenced local variable
+         SkillManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skillmanager.cpp(5973): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skillmanager.cpp(5977): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\skillmanager.cpp(5981): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         SkillHitBox.cpp
+         Skill.cpp
+         Generating Code...
+         Compiling...
+         ShopPointEx.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\shoppointex.cpp(91): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\shoppointex.cpp(160): warning C4018: '<' : signed/unsigned mismatch
+         ShopManager.cpp
+         Shop.cpp
+         SetItemType.cpp
+         SetItemOption.cpp
+         ServerInfo.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\serverinfo.cpp(4954): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\serverinfo.cpp(4989): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         ServerDisplayer.cpp
+         SerialCheck.cpp
+         ScheduleManager.cpp
+         RuudTokenSellTemplate.cpp
+         RewardSystem.cpp
+         RespawnLocation.cpp
+         ResetTable.cpp
+         ResetSystem.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(305): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(306): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(307): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(308): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(309): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(318): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(319): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(320): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(321): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(342): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(588): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(919): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\resetsystem.cpp(919): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+         ReiDoMu.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\reidomu.cpp(849): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         Reconnect.cpp
+         RandomManager.cpp
+         RaklionUtil.cpp
+         RaklionSelupan.cpp
+         RaklionObjInfo.cpp
+         Generating Code...
+         Compiling...
+         RaklionBattleUserMng.cpp
+         RaklionBattleUser.cpp
+         RaklionBattleOfSelupan.cpp
+         Raklion.cpp
+         QueueTimer.cpp
+         Queue.cpp
+         QuestWorldReward.cpp
+         QuestWorldObjective.cpp
+         QuestWorld.cpp
+         QuestReward.cpp
+         QuestObjective.cpp
+         Quest.cpp
+         Protocol.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\protocol.cpp(170): warning C4244: 'initializing' : conversion from 'long' to 'short', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\protocol.cpp(1474): warning C4060: switch statement contains no 'case' or 'default' labels
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\protocol.cpp(1550): warning C4060: switch statement contains no 'case' or 'default' labels
+         Protect.cpp
+         PremiumDrop.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\premiumdrop.cpp(70): warning C4101: 'DropRate' : unreferenced local variable
+         PKSystem.cpp
+         PersonalShop.cpp
+         PentagramSystem.cpp
+         PcPoint.cpp
+         Path.cpp
+         Generating Code...
+         Compiling...
+         PartySearch.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\partysearch.cpp(166): warning C4805: '==' : unsafe mix of type 'BYTE' and type 'bool' in operation
+         PartyMatching.cpp
+         Party.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\party.cpp(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\party.cpp(329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         PacketManager.cpp
+         OfflineMode.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\offlinemode.cpp(800): warning C4805: '==' : unsafe mix of type 'BYTE' and type 'bool' in operation
+         ObjectManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+         NpcTalk.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+         Notice.cpp
+         MuunSystem.cpp
+         MuRummy.cpp
+         MoveSummon.cpp
+         Move.cpp
+         MossMerchant.cpp
+         MonsterSkillUnitInfo.cpp
+         MonsterSkillUnit.cpp
+         MonsterSkillManager.cpp
+         MonsterSkillInfo.cpp
+         MonsterSkillElementOption.cpp
+         MonsterSkillElementInfo.cpp
+         MonsterSkillElement.cpp
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\offlinemode.cpp(203): warning C4700: uninitialized local variable 'path' used
+         Compiling...
+         MonsterSetBase.cpp
+         MonsterReward.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\monsterreward.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+         MonsterManager.cpp
+         MonsterAIUtil.cpp
+         MonsterAIUnitInfo.cpp
+         MonsterAIUnit.cpp
+         MonsterAIState.cpp
+         MonsterAIRuleInfo.cpp
+         MonsterAIRule.cpp
+         MonsterAIMovePathInfo.cpp
+         MonsterAIMovePath.cpp
+         MonsterAIGroupMember.cpp
+         MonsterAIGroup.cpp
+         MonsterAIElementInfo.cpp
+         MonsterAIElement.cpp
+         MonsterAIAutomataInfo.cpp
+         MonsterAIAutomata.cpp
+         MonsterAIAgro.cpp
+         MonsterAI.cpp
+         Monster.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+         Generating Code...
+         Compiling...
+         MiningSystem.cpp
+         MiniMap.cpp
+         MiniDump.cpp
+         Message.cpp
+         Mercenary.cpp
+         MemScript.cpp
+         MemoryAllocatorInfo.cpp
+         MemoryAllocator.cpp
+         MasterSkillTree.cpp
+         MapServerManager.cpp
+         MapPath.cpp
+         MapManager.cpp
+         MapItem.cpp
+         Map.cpp
+         LuckyItem.cpp
+         LuckyCoin.cpp
+         Log.cpp
+         LifeStone.cpp
+         KanturuUtil.cpp
+         KanturuTowerOfRefinement.cpp
+         Generating Code...
+         Compiling...
+         KanturuStateInfo.cpp
+         KanturuObjInfo.cpp
+         KanturuMonsterMng.cpp
+         KanturuMaya.cpp
+         KanturuEntranceNPC.cpp
+         KanturuBattleUserMng.cpp
+         KanturuBattleStanby.cpp
+         KanturuBattleOfNightmare.cpp
+         KanturuBattleOfMaya.cpp
+         Kanturu.cpp
+         Kalima.cpp
+         JSProtocol.cpp
+         JewelOfHarmonyType.cpp
+         JewelOfHarmonyOption.cpp
+         JewelMix.cpp
+         JewelBank.cpp
+         ItemValueTrade.cpp
+         ItemValue.cpp
+         ItemStack.cpp
+         ItemOptionRate.cpp
+         Generating Code...
+         Compiling...
+         ItemOption.cpp
+         ItemMove.cpp
+         ItemManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\itemmanager.cpp(3430): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         ItemLevel.cpp
+         ItemDrop.cpp
+         ItemBagManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\itembagmanager.cpp(232): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         ItemBagEx.cpp
+         ItemBag.cpp
+         Item.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(148): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(166): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(177): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(187): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(205): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\item.cpp(216): warning C4305: 'return' : truncation from 'int' to 'bool'
+         IpManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ipmanager.cpp(37): warning C4018: '>' : signed/unsigned mismatch
+         InventoryEquipment.cpp
+         InvasionManager.cpp
+         ImperialGuardian.cpp
+         IllusionTemple.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\illusiontemple.cpp(2696): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         HwidManager.cpp
+         Helper.cpp
+         HackSkillCheck.cpp
+         HackPacketCheck.cpp
+         HackCheck.cpp
+         GuildMatching.cpp
+         Generating Code...
+         Compiling...
+         GuildClass.cpp
+         Guild.cpp
+         GuardianStatue.cpp
+         SwampEvent.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(226): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(278): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(292): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(302): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(305): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(308): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(337): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(340): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(343): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(346): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(349): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(352): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(355): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(358): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(602): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(606): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(707): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(707): warning C4804: '>=' : unsafe use of type 'bool' in operation
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(719): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\swampevent.cpp(720): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+         ShopSearch.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\shopsearch.cpp(99): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\shopsearch.cpp(100): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         RamFix.cpp
+         NewCustomFunctions.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(108): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(146): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(185): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(232): warning C4244: 'argument' : conversion from 'WORD' to 'char', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(273): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(935): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(936): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1233): warning C4482: nonstandard extension used: enum 'eDarkSpiritMode' used in qualified name
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1391): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1424): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1451): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1479): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1644): warning C4244: 'argument' : conversion from 'DWORD' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1672): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1701): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+         MonsterCall.cpp
+         LeoThap.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\leothap.cpp(1681): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\leothap.cpp(1723): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         GrandResetSystem.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(164): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(166): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(168): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(186): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(187): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(188): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(195): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(196): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(197): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(198): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\grandresetsystem.cpp(432): warning C4018: '<' : signed/unsigned mismatch
+         GensSystem.cpp
+         Gate.cpp
+         GameServer.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+         GameMaster.cpp
+         GameMain.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\gamemain.cpp(78): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Fruit.cpp
+         FlyingDragons.cpp
+         FilterRaname.cpp
+         Filter.cpp
+         FakeOnline.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(75): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(76): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(77): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(492): warning C4805: '==' : unsafe mix of type 'BYTE' and type 'bool' in operation
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(668): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(1129): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(1305): warning C4390: ';' : empty controlled statement found; is this the intent?
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\fakeonline.cpp(214): warning C4700: uninitialized local variable 'path' used
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1528): warning C4700: uninitialized local variable 'S6E2' used
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\newcustomfunctions.cpp(1554): warning C4700: uninitialized local variable 'S6E2' used
+         Compiling...
+         WindowsQuest.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\windowsquest.cpp(167): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\windowsquest.cpp(335): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\windowsquest.cpp(463): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         Survivor.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\survivor.cpp(360): warning C4018: '>' : signed/unsigned mismatch
+         ExperienceTable.cpp
+         EventTvT.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\eventtvt.cpp(1086): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         EventStart.cpp
+         EventRussianRoulette.cpp
+         EventRunAndCatch.cpp
+         EventQuickly.cpp
+         EventPvP.cpp
+         EventKillAll.cpp
+         EventInventory.cpp
+         EventHideAndSeek.cpp
+         ESProtocol.cpp
+         EffectManager.cpp
+         Effect.cpp
+         Duel.cpp
+         DSProtocol.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\dsprotocol.cpp(196): warning C4060: switch statement contains no 'case' or 'default' labels
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\dsprotocol.cpp(262): warning C4060: switch statement contains no 'case' or 'default' labels
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\dsprotocol.cpp(4860): warning C4553: '==' : operator has no effect; did you intend '='?
+         DropReward.cpp
+         DoubleGoer.cpp
+         DevilSquare.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\devilsquare.cpp(1608): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\survivor.cpp(428): warning C4700: uninitialized local variable 'pMsg' used
+         Compiling...
+         DefaultClassInfo.cpp
+         DarkSpirit.cpp
+         CustomWingMix.cpp
+         CustomWing.cpp
+         CustomTuLuyen.cpp
+         CustomTop.cpp
+         CustomTinhNang.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customtinhnang.cpp(131): warning C4305: '=' : truncation from '__int64' to 'int'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customtinhnang.cpp(131): warning C4309: '=' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customtinhnang.cpp(136): warning C4305: '=' : truncation from '__int64' to 'int'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customtinhnang.cpp(136): warning C4309: '=' : truncation of constant value
+         CustomThueVip.cpp
+         CustomStore.cpp
+         CustomStartSetItemDame.cpp
+         CustomStartItemDame.cpp
+         CustomStartItem.cpp
+         CustomSachThuocTinh.cpp
+         CustomRingPedan.cpp
+         CustomRankUser.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customrankuser.cpp(186): warning C4804: '>=' : unsafe use of type 'bool' in operation
+         CustomRanking.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customranking.cpp(216): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customranking.cpp(223): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customranking.cpp(232): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customranking.cpp(239): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         CustomQuiz.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customquiz.cpp(434): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(164) : see declaration of '_strlwr'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customquiz.cpp(466): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         CustomQuest.cpp
+         CustomPKFree.cpp
+         CustomPick.cpp
+         Generating Code...
+         Compiling...
+         CustomPet.cpp
+         CustomOnlineLottery.cpp
+         CustomOfflineMode.cpp
+         CustomNpcQuest.cpp
+         CustomNpcMove.cpp
+         CustomNpcCommand.cpp
+         CustomNpcCollector.cpp
+         CustomNguHanh.cpp
+         CustomMoveEvent.cpp
+         CustomMove.cpp
+         CustomMonsterSkill.cpp
+         CustomMonster.cpp
+         CustomMix.cpp
+         CustomLuckySpin.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customluckyspin.cpp(147): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customluckyspin.cpp(306): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customluckyspin.cpp(309): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         CustomKinhMach.cpp
+         CustomJewel.cpp
+         CustomGHRS.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(45): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(47): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(52): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(53): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(91): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(93): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(98): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(99): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(114): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(128): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(130): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(137): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(138): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customghrs.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+         CustomEventTime.cpp
+         CustomEventDrop.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customeventdrop.cpp(437): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         CustomDeathMessage.cpp
+         Generating Code...
+         Compiling...
+         CustomDanhHieu.cpp
+         CustomCommandDescription.cpp
+         CustomCombo.cpp
+         CustomBuyVip.cpp
+         CustomAttack.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\customattack.cpp(694): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+         CustomArena.cpp
+         CTCMini.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.cpp(1348): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         CSProtocol.cpp
+         CrywolfUtil.cpp
+         CrywolfSync.cpp
+         CrywolfStatue.cpp
+         CrywolfStateTimeInfo.cpp
+         CrywolfObjInfo.cpp
+         CrywolfAltar.cpp
+         Crywolf.cpp
+         CriticalSection.cpp
+         Connection.cpp
+         CommandManager.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\commandmanager.cpp(826): warning C4244: 'initializing' : conversion from 'long' to 'short', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\commandmanager.cpp(4853): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\commandmanager.cpp(6611): warning C4018: '>=' : signed/unsigned mismatch
+         Command.cpp
+         ComboSkill.cpp
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\commandmanager.cpp(4742): warning C4715: 'CCommandManager::CommandSetLevel' : not all control paths return a value
+         Compiling...
+         ChoTroi.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\chotroi.cpp(481): warning C4018: '>' : signed/unsigned mismatch
+         ChienTruongCo.cpp
+         ChaosCastle.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\chaoscastle.cpp(1899): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         ChaosBox.cpp
+         ChangeClass.cpp
+         CastleSiegeWeapon.cpp
+         CastleSiegeSync.cpp
+         CastleSiegeCrownSwitch.cpp
+         CastleSiegeCrown.cpp
+         CastleSiege.cpp
+         CastleDeep.cpp
+         CashShop.cpp
+         CannonTower.cpp
+         BProtect.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(209): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(283): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(379): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(383): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(388): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.cpp(391): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         BotStore.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(87): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(95): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(98): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(110): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(113): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(116): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(119): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(126): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(137): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(149): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(158): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(161): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(166): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(169): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(176): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(190): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(204): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(207): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(210): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(215): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(218): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(221): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(224): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(230): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(233): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(239): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(281): warning C4244: 'argument' : conversion from 'WORD' to 'char', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(530): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(595): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botstore.cpp(595): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         BotOnline.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(65): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(73): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(76): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(79): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(82): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(85): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(88): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(91): warning C4244: '=' : conversion from 'float' to 'BYTE', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(97): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(108): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(116): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(125): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(128): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(133): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(136): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(176): warning C4244: 'argument' : conversion from 'WORD' to 'char', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(241): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(305): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botonline.cpp(305): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         BotBuffer.cpp
+         BotAlchemist.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botalchemist.cpp(83): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botalchemist.cpp(272): error C2065: 'MUUN_INVENTORY_SIZE' : undeclared identifier
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botalchemist.cpp(273): error C2065: 'MUUN_INVENTORY_SIZE' : undeclared identifier
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botalchemist.cpp(275): error C2065: 'MUUN_INVENTORY_SIZE' : undeclared identifier
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\botalchemist.cpp(280): error C2065: 'MUUN_INVENTORY_SIZE' : undeclared identifier
+         BossGuild.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bossguild.cpp(1547): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         BonusManager.cpp
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bossguild.cpp(1525): warning C4700: uninitialized local variable 'GuildNumber' used
+         Compiling...
+         BloodCastle.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bloodcastle.cpp(2344): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         BattleSoccerManager.cpp
+         BattleSoccer.cpp
+         BattleGround.cpp
+         Attack.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4305: 'initializing' : truncation from 'int' to 'const BYTE'
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\ctcmini.h(206): warning C4309: 'initializing' : truncation of constant value
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\bprotect.h(3): warning C4161: #pragma pack(pop...) : more pops than pushes
+         ArcaBattle.cpp
+         Achievements.cpp
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(232): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(294): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(301): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(317): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(326): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(335): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(344): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(353): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(362): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(371): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(380): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(389): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(398): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(407): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(416): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(426): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(435): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(444): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(453): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(462): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(471): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(480): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(489): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(520): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(526): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(535): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(621): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(636): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(645): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(654): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(710): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(737): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(770): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(805): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(832): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(859): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(865): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(908): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(935): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(962): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(989): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1074): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1092): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1127): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1130): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1158): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1185): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1212): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1239): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1266): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\achievements.cpp(1296): warning C4018: '>=' : signed/unsigned mismatch
+         380ItemType.cpp
+         380ItemOption.cpp
+         pugixml.cpp
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(17): warning C4627: '#include "pugixml.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(22): warning C4627: '#include <assert.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(79): warning C4005: 'PUGI__NO_INLINE' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(77) : see previous definition of 'PUGI__NO_INLINE'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(81): warning C4005: 'PUGI__NO_INLINE' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(79) : see previous definition of 'PUGI__NO_INLINE'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(91): warning C4005: 'PUGI__DMC_VOLATILE' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(89) : see previous definition of 'PUGI__DMC_VOLATILE'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(115): warning C4005: 'PUGI__NS_BEGIN' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(106) : see previous definition of 'PUGI__NS_BEGIN'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(116): warning C4005: 'PUGI__NS_END' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(107) : see previous definition of 'PUGI__NS_END'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(118): warning C4005: 'PUGI__FN' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(108) : see previous definition of 'PUGI__FN'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(119): warning C4005: 'PUGI__FN_NO_INLINE' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(109) : see previous definition of 'PUGI__FN_NO_INLINE'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(124): warning C4627: '#include <stdint.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(1085): warning C4005: 'PUGI__IS_CHARTYPE_IMPL' : macro redefinition
+                 e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(1083) : see previous definition of 'PUGI__IS_CHARTYPE_IMPL'
+     1>e:\vanthanhmuonline\season6custom\source\util\pugixml\pugixml.cpp(10270): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Math.cpp
+         CCRC32.Cpp
+         Generating Code...
+     1>e:\vanthanhmuonline\season6custom\source\server\gameserver\gameserver\attack.cpp(1070): warning C4715: 'CAttack::Attack' : not all control paths return a value
+     1>Done Building Project "E:\VanThanhMuOnline\Season6Custom\Source\Server\GameServer\GameServer\GameServer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:43.81

@@ -1,0 +1,182 @@
+﻿Build started 02/04/2022 12:57:40 PM.
+     1>Project "E:\VanThanhMuOnline\Season6Custom\Source\Main_EX603\Main\Main.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MAIN_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Main.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NewUIMyInventory.cpp
+         NewUIMyInventory.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\GhetMainPremium\MuThanLong\Main.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Main.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\Main.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\GhetMainPremium\MuThanLong\Main.lib" /MACHINE:X86 /DLL Release\Main.res
+         Release\CCRC32.obj
+         Release\Achievements.obj
+         Release\AntiCrack.obj
+         Release\Antilag.obj
+         Release\BuffIcon.obj
+         Release\Bytes.obj
+         Release\Camera.obj
+         Release\CChatClassic.obj
+         Release\ChoTroi.obj
+         Release\CMacroUIEx.obj
+         Release\CNewNotice.obj
+         Release\Connection.obj
+         Release\ConnectServer.obj
+         Release\Console.obj
+         Release\ControllerTextBox.obj
+         Release\CriticalSection.obj
+         Release\CustomChatTextColor.obj
+         Release\DangKyTaiKhoan.obj
+         Release\DanhHieu.obj
+         Release\ItemNameColor.obj
+         Release\KinhMach.obj
+         Release\LeoThap.obj
+         Release\CLoginWin.obj
+         Release\Map.obj
+         Release\MenuGame.obj
+         Release\MocNap.obj
+         Release\MuunOption.obj
+         Release\NewUIButton.obj
+         Release\NewUIMyInventory.obj
+         Release\NguHanh.obj
+         Release\PartyBar.obj
+         Release\Ranking.obj
+         Release\RankingEx.obj
+         Release\ShopSearch.obj
+         Release\SlideHelp.obj
+         Release\CustomFont.obj
+         Release\cape.obj
+         Release\CChatEx.obj
+         Release\cCPetRenderMesh.obj
+         Release\Central.obj
+         Release\ChangeClass.obj
+         Release\ChatExpanded.obj
+         Release\CNewUIScene.obj
+         Release\Common.obj
+         Release\Controller.obj
+         Release\CSCharacterS13.obj
+         Release\CustomBow.obj
+         Release\CustomBuyVip.obj
+         Release\CustomCloak.obj
+         Release\CustomEffectRemake.obj
+         Release\CustomEventTime.obj
+         Release\CustomFog.obj
+         Release\CustomGloves.obj
+         Release\CustomLuckySpin.obj
+         Release\CustomNPC.obj
+         Release\CustomOfflineMode.obj
+         Release\CustomPetEffect.obj
+         Release\Font.obj
+         Release\Glow.obj
+         Release\GrandResetSystem.obj
+         Release\Graphics.obj
+         Release\HWID.obj
+         Release\InfoLog.obj
+         Release\CustomItem.obj
+         Release\Inter3.obj
+         Release\ItemGlow.obj
+         Release\ItemManager.obj
+         Release\ItemTooltip.obj
+         Release\ItemTRSData.obj
+         Release\CustomItemPrice.obj
+         Release\CustomJewel.obj
+         Release\CustomMap.obj
+         Release\CustomMessage.obj
+         Release\CustomMonster.obj
+         Release\CustomMonsterGlow.obj
+         Release\CustomNpcName.obj
+         Release\CustomPet.obj
+         Release\CustomRanking.obj
+         Release\CustomRankUser.obj
+         Release\CustomWing.obj
+         Release\DynamicEffect.obj
+         Release\Fix.obj
+         Release\HackCheck.obj
+         Release\HealthBar.obj
+         Release\InterEx.obj
+         Release\Interface.obj
+         Release\Item.obj
+         Release\ItemInfoEx.obj
+         Release\ItemRemake.obj
+         Release\ItemShopValue.obj
+         Release\ItemSmoke.obj
+         Release\JCButton.obj
+         Release\JCOptionBox.obj
+         Release\JCRendernoItemGlow.obj
+         Release\JewelBank.obj
+         Release\LargeRand.obj
+         Release\Main.obj
+         Release\MasterSkillPoint.obj
+         Release\MemScript.obj
+         Release\MiniMap.obj
+         Release\MiniMapInfo.obj
+         Release\ModelEffect.obj
+         Release\MonsterEffect.obj
+         Release\MonsterGlow.obj
+         Release\MonsterHpBar.obj
+         Release\MuHelper.obj
+         Release\MultiSelect.obj
+         Release\NewInterface.obj
+         Release\NPCRuud.obj
+         Release\OffTrade.obj
+         Release\Other.obj
+         Release\PacketManager.obj
+         Release\PartyBuffs.obj
+         Release\PartySearch.obj
+         Release\PartySearchSettings.obj
+         Release\Pet.obj
+         Release\PetHook.obj
+         Release\PetMontura.obj
+         Release\PetProtocol.obj
+         Release\PetTooltip.obj
+         Release\postInterface.obj
+         Release\post_item.obj
+         Release\PrintPlayer.obj
+         Release\Protect.obj
+         Release\Protocol.obj
+         Release\Reconnect.obj
+         Release\ResetSystem.obj
+         Release\Resolution.obj
+         Release\Ruud.obj
+         Release\SelectChar.obj
+         Release\ServerInfo.obj
+         Release\SetEffect.obj
+         Release\SItemOption.obj
+         Release\MasterSkill.obj
+         Release\SkyBox.obj
+         Release\StaticEffect.obj
+         Release\StatsAdvance.obj
+         Release\stdafx.obj
+         Release\SwitchServer.obj
+         Release\TaiSinh.obj
+         Release\TMemory.obj
+         Release\ToolKit.obj
+         Release\TrayModeNew.obj
+         Release\TuLuyen.obj
+         Release\UIControl.obj
+         Release\User.obj
+         Release\Util.obj
+         Release\VipNhanVat.obj
+         Release\VipTaiKhoan.obj
+         Release\WindowsQuest.obj
+         Release\WindowsStruct.obj
+         Release\WingBright.obj
+         Release\WingInvisible.obj
+         Release\zzzmathlib.obj
+            Creating library ..\..\..\GhetMainPremium\MuThanLong\Main.lib and object ..\..\..\GhetMainPremium\MuThanLong\Main.exp
+         Generating code
+         Finished generating code
+     1>jpeg.lib(jdatasrc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg.lib(jdatasrc.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>jpeg.lib(jdmarker.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg.lib(jdmarker.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>jpeg.lib(jutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg.lib(jutils.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>jpeg.lib(jcomapi.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg.lib(jcomapi.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>MUEmoji.lib(MUEmoji.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'MUEmoji.lib(MUEmoji.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>MUEmoji.lib(stdafx.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'MUEmoji.lib(stdafx.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>MUEmoji.lib(Util.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'MUEmoji.lib(Util.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\vc100.pdb'; linking object as if no debug info
+     1>detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\detours.pdb'; linking object as if no debug info
+     1>detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'E:\VanThanhMuOnline\Season6Custom\GhetMainPremium\MuThanLong\detours.pdb'; linking object as if no debug info
+         Main.vcxproj -> E:\VanThanhMuOnline\Season6Custom\Source\Main_EX603\Main\..\..\..\GhetMainPremium\MuThanLong\Main.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\GhetMainPremium\MuThanLong\Main.dll;#2" /manifest Release\Main.dll.intermediate.manifest
+     1>Done Building Project "E:\VanThanhMuOnline\Season6Custom\Source\Main_EX603\Main\Main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.33
